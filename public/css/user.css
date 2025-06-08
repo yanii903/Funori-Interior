@@ -1,0 +1,74 @@
+/* ...existing code... */
+.avatar-upload {
+    text-align: center;
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    background: linear-gradient(135deg, #e0e7ff 0%, #f4f8ff 100%);
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.avatar-preview {
+    width: 230px;
+    height: 230px;
+    min-width: 230px;
+    min-height: 230px;
+    border-radius: 50%;
+    border: 4px solid #4F8CFF;
+    box-shadow: 0 4px 24px rgba(79, 140, 255, 0.15), 0 1.5px 6px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    background: #f4f8ff url('/default-avatar.png') center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+.avatar-upload label {
+    display: inline-block;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.body-text1{
+    margin-bottom: 30px;
+}
+/* ...existing code... */
+
+.password-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+#resetPasswordIcon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.password-input {
+    padding-right: 40px !important;
+}
+
+.status-select.status-active {
+    color: #fff;
+    background: #28a745;
+}
+.status-select.status-isactive {
+    color: #333;
+    background: #ffc107;
+}
+.status-select.status-banned {
+    color: #fff;
+    background: #dc3545;
+}
+.status-select.status-default {
+    color: #333;
+    background: #e9ecef;
+}
